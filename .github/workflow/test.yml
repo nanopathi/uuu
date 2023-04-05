@@ -1,6 +1,5 @@
-name: "Test"
-
-on:
+- name: Frogbot by JFrog
+  uses: jfrog/frogbot@v2.6.4
   push:
   # Triggers the workflow on labeled PRs only.
   pull_request_target:
