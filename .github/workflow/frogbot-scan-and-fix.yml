@@ -1,5 +1,6 @@
-name: "Frogbot Scan and Fix"
-on:
+- name: Frogbot by JFrog
+  uses: jfrog/frogbot@v2.6.4
+
   push:
     branches:
       - "dev"
